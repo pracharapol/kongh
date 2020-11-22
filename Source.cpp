@@ -4,9 +4,7 @@
 using namespace std;
 
 #define ARRAY_SIZE 5
-
-int main()
-{
+int x() {
     int numbers[ARRAY_SIZE], i, j, temp;
 
     cout << "Simple C++ Example Program for Sorting Descending Order In Array\n";
@@ -36,6 +34,10 @@ int main()
     for (i = 0; i < ARRAY_SIZE; ++i)
         cout << numbers[i] << endl;
 
- 
+
     return 0;
+}
+int main()
+{
+    x();
 }
